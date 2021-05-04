@@ -1,6 +1,6 @@
 # 目次
 - [apexRPCalculator.py](#apexRPCalculator.py)
-- [なろう小説の更新頻度 frequency.py](#frequency.py)
+- [frequency.py なろう小説の更新頻度](#frequency.py)
 
 # apexRPCalculator.py
 必要なRPとコストを入力することで何位で何キル/アシストすればいいか表示するやつ  
