@@ -8,7 +8,7 @@
 get how many kill/assist and rank by enter the need rp and the cost
   
 ### usage
-`python apexRPCalculator.py [need] [cost]`  
+```python apexRPCalculator.py [need] [cost]```  
 or  
 ```
 import apexRPCalculator  
