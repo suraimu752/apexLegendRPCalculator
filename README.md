@@ -2,9 +2,10 @@
 
 ## 目次
 - [apexRPCalculator.py](##apexRPCalculator.py)
+- [なろう小説の更新頻度 frequency.py](##なろう小説の更新頻度 frequency.py)
 
 ## apexRPCalculator.py
-必要なRPとコストを入力することで何位で何キル/アシストすればいいか表示する  
+必要なRPとコストを入力することで何位で何キル/アシストすればいいか表示するやつ  
 get how many kill/assist and rank by enter the need rp and the cost
   
 ### usage
@@ -13,3 +14,6 @@ or
 ```
 import apexRPCalculator  
 apexRPCalculator.getLeast([need], [cost]) # => return list [[place, kill/assist, rp] , ...]  
+
+## なろう小説の更新頻度 frequency.py
+なろう小説のurlを入力すると更新頻度をグラフ化するやつ  
