@@ -6,4 +6,4 @@ get how many kill/assist and rank by enter the need rp and the cost
 or  
 ```python:example
 import apexRPCalculator  
-apexRPCalculator.getLeast([need], [cost]) # => return list [[place, kill/assist, rp] , ...]```(  
+apexRPCalculator.getLeast([need], [cost]) # => return list [[place, kill/assist, rp] , ...]  
