@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>FF14 Timer</title>
+    </head>
+    <body>
+        <div id="time"></div>
+        <script>
+            var timer = setInterval(function() {
+                let lastSunday = new Date();
+                lastSunday.setDate(lastSunday.getDate() - lastSunday.getDay());
+                lastSunday.setHours(0);
+                lastSunday.setMinutes(0);
+                lastSunday.setSeconds(0);
+
+                let now = new Date();
+                let diff = now.getTime() - lastSunday.getTime();
+
+                let et = Math.floor(((diff / 60000) % 70) / 70 * (24 * 60));
+                
+                let time = Math.floor(et / 60) + ":" + ("00" + (et % 60)).slice(-2);
+                document.getElementById("time").innerHTML = time;
+            }, 300);
+        </script>
+    </body>
+</html>
